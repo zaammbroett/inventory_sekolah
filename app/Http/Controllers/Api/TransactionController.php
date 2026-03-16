@@ -1,5 +1,11 @@
 <?php
 
+namespace App\Http\Controllers\Api;  // <-- HARUSNYA INI
+
+use App\Http\Controllers\Controller;
+use App\Models\Transaction;
+use Illuminate\Http\Request;
+
 class TransactionController extends Controller
 {
 

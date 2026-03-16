@@ -1,5 +1,9 @@
 <?php
 
+namespace App\Models;  // <-- HARUSNYA INI
+
+use Illuminate\Database\Eloquent\Model;
+
 class Category extends Model
 {
 
